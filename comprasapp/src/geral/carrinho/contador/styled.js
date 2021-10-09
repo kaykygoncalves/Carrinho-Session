@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 const Container = styled.div`
   display: flex;
   flex-direction: row;
@@ -27,5 +26,4 @@ const Container = styled.div`
     cursor: pointer;
   }
 `
-
 export { Container }

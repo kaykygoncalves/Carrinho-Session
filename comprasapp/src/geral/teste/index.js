@@ -21,7 +21,7 @@ export default function Index() {
 
 
 function Filho(props) {
-  const [a, setA] = useState(props.a)
+  const [a] = useState(props.a)
   return (
     <div>
       <br /> ----- <br /> 

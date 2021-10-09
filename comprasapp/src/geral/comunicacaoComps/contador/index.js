@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-import { Container } from "./styled";
-
 export default function Pai() {
   const [qtd, setQtd] = useState(0);
 
@@ -14,7 +12,6 @@ export default function Pai() {
   }
 
   return (
-    <Container>
       <div className="container">
         <h1> Contador </h1>
         <div> {qtd} </div>
@@ -22,7 +19,6 @@ export default function Pai() {
 
         <Filho onReset={resetar} />
       </div>
-    </Container>
   );
 }
 

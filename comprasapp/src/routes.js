@@ -1,6 +1,5 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import './styles.css';
 
 import Teste from "./geral/teste";
 import Contador from "./geral/comunicacaoComps/contador";
@@ -19,7 +18,6 @@ export default function Routes() {
         <Route path="/" exact={true} component={App} />
         <Route path="/detalhe" component={DetalheProduto} />
         <Route path="/carrinho" component={Carrinho} />
-
         <Route path="/teste" component={Teste} />
         <Route path="/geral/contador" exact={true} component={Contador} />
         <Route path="/geral/pedido" component={Pedido} />
